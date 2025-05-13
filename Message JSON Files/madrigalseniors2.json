@@ -1,0 +1,233 @@
+{
+  "participants": [
+    {
+      "name": "\u00f0\u009f\u00a7\u00b5\u00f0\u009f\u008d\u00b5megan\u00f0\u009f\u00aa\u00bb\u00f0\u009f\u00a9\u00b5"
+    },
+    {
+      "name": "Kyle Knobl"
+    },
+    {
+      "name": "Jeremy Larkin"
+    },
+    {
+      "name": "lily \u00e2\u009d\u0087\u00ef\u00b8\u008f"
+    },
+    {
+      "name": "Caoilainn"
+    },
+    {
+      "name": "polanah\u00e2\u0099\u009b"
+    },
+    {
+      "name": "V"
+    },
+    {
+      "name": "Erika"
+    },
+    {
+      "name": "marija"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Kyle Knobl",
+      "timestamp_ms": 1695149329092,
+      "content": "Back at it again \u00f0\u009f\u0094\u00a5\u00f0\u009f\u0094\u00a5",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1695153367
+        },
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "polanah\u00e2\u0099\u009b",
+          "timestamp": 1695168597
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Kyle Knobl",
+      "timestamp_ms": 1695149324170,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/madrigalseniors_6274106542681366/photos/379892790_2267811353417179_9188694845037538186_n_2267811350083846.jpg",
+          "creation_timestamp": 1695149323
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Kyle Knobl",
+      "timestamp_ms": 1683076380213,
+      "content": "We fuckin did it. Great job everyone",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "\u00f0\u009f\u00a7\u00b5\u00f0\u009f\u008d\u00b5megan\u00f0\u009f\u00aa\u00bb\u00f0\u009f\u00a9\u00b5",
+          "timestamp": 1683083548
+        },
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "polanah\u00e2\u0099\u009b",
+          "timestamp": 1683115064
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Kyle Knobl",
+      "timestamp_ms": 1683049673453,
+      "content": "Cool",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "marija",
+      "timestamp_ms": 1683049664391,
+      "content": "Flip flops, crocs, cowboy boots, whatever",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "marija",
+      "timestamp_ms": 1683049652133,
+      "content": "How about we all wear whatever wacky shoes we have at home",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Kyle Knobl",
+      "timestamp_ms": 1683049631808,
+      "content": "I say we do flipflops",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Kyle Knobl",
+      "timestamp_ms": 1683042970543,
+      "content": "So what we doin",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "marija",
+      "timestamp_ms": 1683032388306,
+      "content": "I do",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "\u00f0\u009f\u00a7\u00b5\u00f0\u009f\u008d\u00b5megan\u00f0\u009f\u00aa\u00bb\u00f0\u009f\u00a9\u00b5",
+          "timestamp": 1683032805
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Kyle Knobl",
+      "timestamp_ms": 1683032247313,
+      "content": "We'd have to make them",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Kyle Knobl",
+      "timestamp_ms": 1683032233932,
+      "content": "True",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "lily \u00e2\u009d\u0087\u00ef\u00b8\u008f",
+      "timestamp_ms": 1683032107838,
+      "content": "can we all wear shirts that say SENIORS #FUCKYEAH",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1683034262
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "lily \u00e2\u009d\u0087\u00ef\u00b8\u008f",
+      "timestamp_ms": 1683032094753,
+      "content": "i don't want to jumpscare the audience with our dogs",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1683034261
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Kyle Knobl",
+      "timestamp_ms": 1683030762909,
+      "content": "We could do flip flops",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "marija",
+          "timestamp": 1683031021
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "marija",
+      "timestamp_ms": 1683030672253,
+      "content": "We don\u00e2\u0080\u0099t have to do crocs but I think we should do something fun",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Kyle Knobl",
+      "timestamp_ms": 1683030103112,
+      "content": "Like instead of dress shoes?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "polanah\u00e2\u0099\u009b",
+      "timestamp_ms": 1683029890925,
+      "content": "Not crocs\u00f0\u009f\u0098\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "marija",
+      "timestamp_ms": 1683029837641,
+      "content": "Any ideas?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "marija",
+      "timestamp_ms": 1683029833941,
+      "content": "Hey, guys!! When we were in 8th grade, the seniors in choir all wore crocs to the concert, and I want to do something similar",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Madrigal SENIORS",
+  "is_still_participant": true,
+  "thread_path": "inbox/madrigalseniors_6274106542681366",
+  "magic_words": [
+    
+  ],
+  "joinable_mode": {
+    "mode": 1,
+    "link": ""
+  }
+}

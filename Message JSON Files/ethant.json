@@ -1,0 +1,555 @@
+{
+  "participants": [
+    {
+      "name": "Ethan T"
+    },
+    {
+      "name": "Caoilainn"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1740664165543,
+      "content": "Reacted \u00f0\u009f\u0091\u00bb to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1740545909486,
+      "content": "Thank you!!! Miss you \u00f0\u009f\u0092\u0095",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u00bb",
+          "actor": "Ethan T"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1740541689662,
+      "content": "happy birthday",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1739837658703,
+      "content": "i\u00e2\u0080\u0099m very excited!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1739837652356,
+      "content": "thank you so much!!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1739387854522,
+      "content": "Let\u00e2\u0080\u0099s goooo congrats \u00f0\u009f\u00a5\u00b3\u00f0\u009f\u00a5\u00b3\u00f0\u009f\u00a5\u00b3",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1737932905492,
+      "content": "Oh good ofc!!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1737931025181,
+      "content": "no no this actually helps thank u so much!!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1737932905
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1737929269492,
+      "content": "I think just like general confidence and remembering that like you\u00e2\u0080\u0099re \u00e2\u0080\u009calways auditioning\u00e2\u0080\u009d might be good to keep in mind too but other than that I don\u00e2\u0080\u0099t know the specifics of college auditions. This probably isn\u00e2\u0080\u0099t super helpful sorry but let me know if there\u00e2\u0080\u0099s anything else I can answer or help with!! I hope it all goes well!!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1737929169852,
+      "content": "Ooh yay good luck with that!!! Tbh I didn\u00e2\u0080\u0099t do any college auditions bc I\u00e2\u0080\u0099m not majoring in it/going to an arts school but I can give you general advice (that you probably already know I\u00e2\u0080\u0099m sure you\u00e2\u0080\u0099re going to do great)! I would just say that knowing your \u00e2\u0080\u009cmoment before,\u00e2\u0080\u009d who youre delivering the monologue to (assuming you\u00e2\u0080\u0099re doing a monologue), and having clear motivations for each like thought in the monologue would be my advice for that (though you might be better with monologues than I am you\u00e2\u0080\u0099ve taken more classes than I have probably).",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1737853973044,
+      "content": "sorry to text you out of the blue like this, I just want to be as prepared as possible going into it and I know you have a lot of experience with auditions and stuff like this",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1737853914140,
+      "content": "like what to do when i\u00e2\u0080\u0099m auditioning and is there anything specific I should try to avoid doing while auditioning?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1737853858979,
+      "content": "hey caoilainn! i\u00e2\u0080\u0099m starting my college auditions soon and I was wondering if you had any advice you could give me?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1737174176865,
+      "content": "Reacted \u00f0\u009f\u0091\u00bb to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1737139385345,
+      "content": "Yessss I absolutely will that would be so so good!!!",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u00bb",
+          "actor": "Ethan T",
+          "timestamp": 1737174176
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1737121661765,
+      "content": "with felix ofc",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1737139384
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1737121653487,
+      "content": "yes lmk when you\u00e2\u0080\u0099re back in town and I\u00e2\u0080\u0099ll check if mckenna is in town and we can all hangout!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1737139382
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1737066962185,
+      "content": "YESSS WE MUST THAT SOUNDS AMAZING",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1737063298616,
+      "content": "WHENEVER YOU VISIT I WILL SCHEDULE SOMETHING WITH YOU, FELIX AND MCKENNA I SWEAR",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1737063280364,
+      "content": "YESS WE NEED TO SEE EACH OTHER AGAIN",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1736987617949,
+      "content": "OMG MY FAVES ALL TOGETHER I MISS YOU",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1722848171693,
+      "content": "it\u00e2\u0080\u0099s been stuck in my head",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1722882095
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1722847891866,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1722743230652,
+      "content": "This song is so good fr",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ethan T",
+          "timestamp": 1722847891
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1719447509208,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1719423007919,
+      "content": "I am so so sorry Ethan that is so so sad I am sending my love \u00f0\u009f\u0092\u0095\u00f0\u009f\u0092\u0095\u00f0\u009f\u0092\u0095",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ethan T",
+          "timestamp": 1719447509
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1718918050373,
+      "content": "Reacted \u00f0\u009f\u0091\u00bb to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1718907267344,
+      "content": "Oh definitely!!!",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u00bb",
+          "actor": "Ethan T",
+          "timestamp": 1718918050
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1718905687655,
+      "content": "whenever you get back we should hangout with maddie or smth",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1718907262
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1718905671917,
+      "content": "I miss you too \u00f0\u009f\u0098\u00ad",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1718907260
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1718897707898,
+      "content": "I am so so glad I met you too I miss you so much \u00f0\u009f\u0098\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1718885769166,
+      "content": "i\u00e2\u0080\u0099m so glad I met you, you\u00e2\u0080\u0099re literally one of the sweetest people i\u00e2\u0080\u0099ve ever met",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1718897707
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1718885761052,
+      "content": "crying",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1718897706
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1718847953751,
+      "content": "No I genuinely love seeing your stories so much I\u00e2\u0080\u0099m so glad that liking them makes you happy bc your stories make me happy \u00f0\u009f\u0092\u0095",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1718834681090,
+      "content": "even though it might be considered a small gesture it really does make me happy when you like my stories",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1718834663140,
+      "content": "ilyt",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1718847914
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1718834057200,
+      "content": "OMG ILY THANK YOU!!! I love seeing your stories sm",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1718832511735,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1718832207760,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1712369015975,
+      "content": "i\u00e2\u0080\u0099m batman",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1712374090
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1712369013208,
+      "content": "i\u00e2\u0080\u0099m just him",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1712374089
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1712343758028,
+      "content": "Slayed",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1701481925533,
+      "content": "real asf",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1701488127
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1699108526875,
+      "content": "THANK YOU!!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1699110753
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1699107102451,
+      "content": "Break a leg!!! You guys are going to kill it!!!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1684787648661,
+      "content": "Ethan sent an attachment.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1682358412444,
+      "content": "Ethan sent an attachment.",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1682361296
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1682358082641,
+      "content": "Ethan sent an attachment.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1678639511310,
+      "content": "Ethan sent an attachment.",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1678643306
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1671931462478,
+      "content": "Ethan sent an attachment.",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1671931796
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1671156505445,
+      "content": "i\u00e2\u0080\u0099m sorry",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1671189653
+        }
+      ],
+      "share": {
+        "link": "https://instagram.com/stories/caoilainnsc/2994158455984875682"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Ethan T",
+      "timestamp_ms": 1670201508036,
+      "content": "Ethan sent an attachment.",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1670204702
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Ethan T",
+  "is_still_participant": true,
+  "thread_path": "inbox/ethant_866026894799961",
+  "magic_words": [
+    
+  ]
+}

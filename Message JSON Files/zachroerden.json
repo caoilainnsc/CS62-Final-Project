@@ -1,0 +1,562 @@
+{
+  "participants": [
+    {
+      "name": "Zach Roerden"
+    },
+    {
+      "name": "Caoilainn"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693283750283,
+      "content": "it\u00e2\u0080\u0099s so big, it\u00e2\u0080\u0099s easier to go to scripps and pitzer and mudd",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693283729826,
+      "content": "i honestly haven\u00e2\u0080\u0099t been there yet really",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1693316920
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693283687046,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693283117277,
+      "content": "Cmcs seems really nice",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693283111205,
+      "content": "Oh nice! What do you think of Pomonas campus?",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Zach Roerden",
+          "timestamp": 1693283687
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693283089993,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/zachroerden_1156640482403461/photos/371295652_2634768643347423_1817473199775749187_n_2634768636680757.jpg",
+          "creation_timestamp": 1693283088
+        },
+        {
+          "uri": "your_instagram_activity/messages/inbox/zachroerden_1156640482403461/photos/371172836_1032332711274272_1501185218628348091_n_1032332704607606.jpg",
+          "creation_timestamp": 1693283089
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693283089790,
+      "content": "yah agreed, i was there for a short time",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693283078136,
+      "content": "I was! It was low key mid but I got a free hat",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693283066877,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693283063227,
+      "content": "change of topic but were u at barbie party?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693283062548,
+      "content": "I have intro to cog sci and my yoga PE class",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Zach Roerden",
+          "timestamp": 1693283066
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693283052959,
+      "content": "Or ig two bc of convocation",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693283034476,
+      "content": "and then i have my class on wednesday that was cancelled today for convocation",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693283029665,
+      "content": "Oh nice I have three",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693283020198,
+      "content": "i only have 2 new classes tmrw",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693283006716,
+      "content": "yah me neither",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693282999967,
+      "content": "Tbh idk half the names of my professors yet \u00f0\u009f\u0098\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693282984230,
+      "content": "I think Yassaf",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693282969610,
+      "content": "McAdams and Yassaf or something righy?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693282965155,
+      "content": "My Spanish teacher was very intense but the calc teacher was nice",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693282948304,
+      "content": "Yeah I\u00e2\u0080\u0099m only taking classes at Pomona so we\u00e2\u0080\u0099ll see\u00e2\u0080\u00a6",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693282934408,
+      "content": "Pomona!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693282903160,
+      "content": "people say II is harder than III and i suck at calc so i\u00e2\u0080\u0099m personally terrified and think i\u00e2\u0080\u0099ll need to go to I \u00f0\u009f\u0098\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693282874803,
+      "content": "i heard the pomona professors are rough",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693282865756,
+      "content": "where are you taking calc II?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693282839994,
+      "content": "I also had a Spanish class today and I had calc II but now I\u00e2\u0080\u0099m thinking of switching to calc III",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693282807535,
+      "content": "Yeah I\u00e2\u0080\u0099m glad people are so friendly!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693282800025,
+      "content": "That\u00e2\u0080\u0099s so true",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693281987150,
+      "content": "i only had spanish at pitzer today so yet to see how classes are",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693281956649,
+      "content": "but everyone is so nice",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693281952847,
+      "content": "the weather has definitely been an adjustment",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009a\u00a1\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1693282794
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693281939554,
+      "content": "yah it\u00e2\u0080\u0099s absolutely great",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1693281930436,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1693281551726,
+      "content": "How was your first day of class? Are you liking it here? I\u00e2\u0080\u0099ve had such a good time so far fr!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Zach Roerden",
+          "timestamp": 1693281930
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1684263548158,
+      "content": "yup same",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1684264742
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1684263545455,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1684257434640,
+      "content": "I am literally so nervous to be so far away from home",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Zach Roerden",
+          "timestamp": 1684263545
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1684257416363,
+      "content": "Me too",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1684256635762,
+      "content": "terrifying tho",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1684256629906,
+      "content": "cant wait",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1684256627470,
+      "content": "THANK YOU",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1684256624927,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1684255738506,
+      "content": "OMG YAYYYYYYY!!!!!!!! Congrats!!!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Zach Roerden",
+          "timestamp": 1684256624
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1683587844378,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1683587336392,
+      "content": "I would be thrilled if you went to cmc, but I think you\u00e2\u0080\u0099d probably be happy either way!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Zach Roerden",
+          "timestamp": 1683587844
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1683587308765,
+      "content": "It is def hard so good luck",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1683584958513,
+      "content": "i\u00e2\u0080\u0099m torn all over again",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1683584952482,
+      "content": "i have no clue",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1683583708204,
+      "content": "Do you think you\u00e2\u0080\u0099re going to go?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1683583698740,
+      "content": "OMG NO WAY THATS AWESOME!!!!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1683580601291,
+      "content": "i got off the cmc waitlist \u00f0\u009f\u0092\u0080\u00f0\u009f\u0092\u0080",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1683583712
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1683580595660,
+      "content": "guess what",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1683235210454,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1683234351014,
+      "content": "Oh nice that\u00e2\u0080\u0099s a great school too, but I\u00e2\u0080\u0099ll still root for cmc for you!!!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Zach Roerden",
+          "timestamp": 1683235210
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1683234193247,
+      "content": "me too lol. I made a last minute choice for BC over richmond",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1683234173668,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1683234158850,
+      "content": "Oh wait that\u00e2\u0080\u0099s so cool I hope you make it \u00f0\u009f\u00a4\u009e",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Zach Roerden",
+          "timestamp": 1683234173
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1683234107008,
+      "content": "I did commit but I\u00e2\u0080\u0099m going to unenroll",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1683233460180,
+      "content": "also making me nervous thinking i\u00e2\u0080\u0099m hearing from the cmc waitlist soon",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1683233447956,
+      "content": "had u committed to richmond before?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1683232823674,
+      "content": "THANK YOU!!!!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1683231574668,
+      "content": "HOLY SHIT CONGRATS",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Zach Roerden",
+      "timestamp_ms": 1681771034811,
+      "content": "AYEEE",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1681772941
+        }
+      ],
+      "share": {
+        "link": "https://instagram.com/stories/caoilainnsc/3083158337504370198"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Zach Roerden",
+  "is_still_participant": true,
+  "thread_path": "inbox/zachroerden_1156640482403461",
+  "magic_words": [
+    
+  ]
+}

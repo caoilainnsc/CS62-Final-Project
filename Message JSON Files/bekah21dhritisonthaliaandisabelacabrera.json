@@ -1,0 +1,138 @@
+{
+  "participants": [
+    {
+      "name": "bekah \u00e0\u00ad\u00a8\u00e2\u0099\u00a1\u00e0\u00ad\u00a7"
+    },
+    {
+      "name": "dhriti sonthalia"
+    },
+    {
+      "name": "Caoilainn"
+    },
+    {
+      "name": "Isabela Cabrera"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1713402210687,
+      "content": "Thank you!!!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Isabela Cabrera",
+      "timestamp_ms": 1713398898495,
+      "content": "Thank u!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "dhriti sonthalia",
+      "timestamp_ms": 1713398625712,
+      "content": "sounds good",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u00a4\u008d",
+          "actor": "bekah \u00e0\u00ad\u00a8\u00e2\u0099\u00a1\u00e0\u00ad\u00a7",
+          "timestamp": 1713398640
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "bekah \u00e0\u00ad\u00a8\u00e2\u0099\u00a1\u00e0\u00ad\u00a7",
+      "timestamp_ms": 1713398621848,
+      "content": "okk i\u00e2\u0080\u0099ll share it w her",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "dhriti sonthalia",
+      "timestamp_ms": 1713398169428,
+      "content": "yeah we should",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u00a4\u008d",
+          "actor": "bekah \u00e0\u00ad\u00a8\u00e2\u0099\u00a1\u00e0\u00ad\u00a7",
+          "timestamp": 1713398596
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "bekah \u00e0\u00ad\u00a8\u00e2\u0099\u00a1\u00e0\u00ad\u00a7",
+      "timestamp_ms": 1713397962250,
+      "content": "should one of us send the slides to her?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "bekah \u00e0\u00ad\u00a8\u00e2\u0099\u00a1\u00e0\u00ad\u00a7",
+      "timestamp_ms": 1712208696746,
+      "content": "rebekahkimm added Isabela Cabrera to the group.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "bekah \u00e0\u00ad\u00a8\u00e2\u0099\u00a1\u00e0\u00ad\u00a7",
+      "timestamp_ms": 1712205215848,
+      "content": "okk ty :)",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "dhriti sonthalia",
+      "timestamp_ms": 1712205196698,
+      "content": "hey! doesn\u00e2\u0080\u0099t seem like we have class.",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u00a4\u008d",
+          "actor": "bekah \u00e0\u00ad\u00a8\u00e2\u0099\u00a1\u00e0\u00ad\u00a7",
+          "timestamp": 1712205209
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "dhriti sonthalia",
+      "timestamp_ms": 1712205182444,
+      "content": "https://www.instagram.com/isa_cab.24?igsh=MWQ1ZGUxMzBkMA==",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "dhriti sonthalia",
+      "timestamp_ms": 1712205182263,
+      "content": "dhriti sent an attachment.",
+      "share": {
+        "link": "https://www.instagram.com/_u/isa_cab.24",
+        "profile_share_username": "isa_cab.24",
+        "profile_share_name": "Isabela Cabrera"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "bekah \u00e0\u00ad\u00a8\u00e2\u0099\u00a1\u00e0\u00ad\u00a7",
+      "timestamp_ms": 1712205094312,
+      "content": "hi! sorry i couldn\u00e2\u0080\u0099t find isabella\u00e2\u0080\u0099s ig but do we still have class tmrw for spanish?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "bekah \u00e0\u00ad\u00a8\u00e2\u0099\u00a1\u00e0\u00ad\u00a7, dhriti sonthalia and Isabela Cabrera",
+  "is_still_participant": true,
+  "thread_path": "inbox/bekah21dhritisonthaliaandisabelacabrera_7372262689506460",
+  "magic_words": [
+    
+  ],
+  "joinable_mode": {
+    "mode": 2,
+    "link": "https://ig.me/j/AbbmNt8I1abfzuqK/"
+  }
+}

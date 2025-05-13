@@ -1,0 +1,148 @@
+{
+  "participants": [
+    {
+      "name": "charlotte"
+    },
+    {
+      "name": "Caoilainn"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "charlotte",
+      "timestamp_ms": 1733444770636,
+      "content": "I MISSS YOUUU thank you sm \u00f0\u009f\u0098\u009a\u00f0\u009f\u0098\u009a",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1733449326
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1733438473615,
+      "content": "Happy birthday baddieeeee I hope you\u00e2\u0080\u0099re doing well I miss you \u00f0\u009f\u0092\u0095\u00f0\u009f\u0092\u0095",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "charlotte",
+      "timestamp_ms": 1718739472506,
+      "content": "STAWPP EHEHEH \u00f0\u009f\u00a4\u00ad\u00f0\u009f\u00a4\u00ad",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1718743737
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1718738154170,
+      "content": "WTF THIS EATS SO HARD OMGGGG",
+      "share": {
+        "link": "https://instagram.com/stories/ccharlotte_m/3393322981387525930"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "charlotte",
+      "timestamp_ms": 1712592768111,
+      "content": "YURRRP",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1712595791
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1712589246106,
+      "content": "So so true",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1708887028417,
+      "content": "THANK YOU FOR THIS MASTERPIECE QUEEN I MISS YOU SM",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "charlotte",
+      "timestamp_ms": 1708878192147,
+      "audio_files": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/charlotte_722940872607556/audio/audioclip170887818800030592_377489481806916.aac",
+          "creation_timestamp": 1708878188
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "charlotte",
+      "timestamp_ms": 1701797234722,
+      "content": "YASSS MISS YOU GURL",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1701801186
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1701793047107,
+      "content": "HAPPY BIRTHDAY QUEEN \u00f0\u009f\u0098\u009c\u00f0\u009f\u0098\u009c\u00f0\u009f\u0098\u009c MISSING YOU IN CALI",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1677345493367,
+      "audio_files": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/charlotte_722940872607556/audio/audioclip16773454910003042_3576673329231859.mp4",
+          "creation_timestamp": 1677345491
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "charlotte",
+      "timestamp_ms": 1677334502517,
+      "audio_files": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/charlotte_722940872607556/audio/audioclip167733450000018321_929203418260028.mp4",
+          "creation_timestamp": 1677334500
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "charlotte",
+  "is_still_participant": true,
+  "thread_path": "inbox/charlotte_722940872607556",
+  "magic_words": [
+    
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "participants": [
+    {
+      "name": "Reese Kunkel"
+    },
+    {
+      "name": "Mckenna"
+    },
+    {
+      "name": "Caoilainn"
+    },
+    {
+      "name": "Arthur Bond"
+    },
+    {
+      "name": "Gideon Colliver"
+    },
+    {
+      "name": "elise"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1717801641478,
+      "content": "i love you but no",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1717803005
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1717799632332,
+      "content": "I am free online \u00f0\u009f\u0098\u00ad or if anyone wants to come get me from Norfolk over a weekend (that would be insane but i could do it if anyone really wanted to)",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Arthur Bond",
+      "timestamp_ms": 1717798908931,
+      "content": "Yes I am free I come home from my trip today \u00f0\u009f\u0092\u00aa",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0092\u0090",
+          "actor": "elise",
+          "timestamp": 1717801642
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1717798879756,
+      "content": "is anyone free in the next week and a half? even just to hang not necessarily presentations",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1717205773977,
+      "content": "im down for whatever",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Arthur Bond",
+      "timestamp_ms": 1717194030876,
+      "content": "I will also have to be virtual if it does happen because I\u00e2\u0080\u0099m off on a trip rn \u00f0\u009f\u0098\u0085",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1717193974633,
+      "content": "Do you guys want to do it this weekend? I\u00e2\u0080\u0099m virtual but I still want this to happen \u00f0\u009f\u0098\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716861981219,
+      "content": "i also might prefer a later day, i have work at 8 every morning this week",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Reese Kunkel",
+      "timestamp_ms": 1716861925238,
+      "content": "Is there possibly a later day? If not that\u00e2\u0080\u0099s fine I just might be lowkey really late",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Mckenna",
+      "timestamp_ms": 1716861779222,
+      "content": "Wut time",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716854772790,
+      "content": "@reese_kunkel",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1716843556030,
+      "content": "Works for me!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Arthur Bond",
+      "timestamp_ms": 1716837758488,
+      "content": "Tomorrow still works for me",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716837726892,
+      "content": "does tomorrow work or do we want to try another day?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Arthur Bond",
+      "timestamp_ms": 1716496057156,
+      "content": "You missed a video chat",
+      "call_duration": 18,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Arthur Bond",
+      "timestamp_ms": 1716496048077,
+      "content": "Lmfao ignore that",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Arthur Bond",
+      "timestamp_ms": 1716496021930,
+      "content": "arthurorsomething started a video chat",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Reese Kunkel",
+      "timestamp_ms": 1716495364982,
+      "content": "But let me ask her",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Arthur Bond",
+          "timestamp": 1716496059
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Reese Kunkel",
+      "timestamp_ms": 1716495362310,
+      "content": "The 28th is my moms bday",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Mckenna",
+      "timestamp_ms": 1716478587052,
+      "content": "I\u00e2\u0080\u0099m fine with whatever",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716475161126,
+      "content": "yeah that's fine",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Arthur Bond",
+          "timestamp": 1716482674
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Arthur Bond",
+      "timestamp_ms": 1716474661791,
+      "content": "I would only be able to make it if it was the 28th",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716470482542,
+      "content": "i would prefer the 29th just cause of wisdom teeth aftercare stuff but either is okay",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1716468871118,
+      "content": "I think they should work for me over zoom it would just have to be in the evening!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716467845373,
+      "content": "thoughts about those dates?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716309735179,
+      "content": "i was thinking 28 or 29?",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Mckenna",
+          "timestamp": 1716478566
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Mckenna",
+      "timestamp_ms": 1716309711414,
+      "content": "We must have this day before June I beg",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Mckenna",
+      "timestamp_ms": 1716309701848,
+      "content": "I like this one this is cool",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Mckenna",
+      "timestamp_ms": 1716309694682,
+      "content": "Rip \u00f0\u009f\u00aa\u00a6 \u00e2\u009c\u00a8\u00f0\u009f\u00aa\u00a9",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716309683884,
+      "content": "elise.bailey.05 changed the theme to Earth Day",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Reese Kunkel",
+      "timestamp_ms": 1716309656576,
+      "content": "Guys we need a moment of silence\u00e2\u0080\u00a6the trolls theme has been removed from insta",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Arthur Bond",
+          "timestamp": 1716321085
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Mckenna",
+      "timestamp_ms": 1716309634636,
+      "content": "mckenna_slo_ changed the theme to Minecraft",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Reese Kunkel",
+      "timestamp_ms": 1716309627799,
+      "content": "reese_kunkel changed the theme to Wonka",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Reese Kunkel",
+      "timestamp_ms": 1716309618750,
+      "content": "reese_kunkel changed the theme to Bubble Tea",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Mckenna",
+      "timestamp_ms": 1716309585825,
+      "content": "Ello chaps!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Arthur Bond",
+      "timestamp_ms": 1716166307135,
+      "content": "Jkjk starwars is cool",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716166292154,
+      "content": "fine what do you want the the theme to be",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Arthur Bond",
+      "timestamp_ms": 1716166234548,
+      "content": "Nerd star wars",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716166227709,
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1716166692
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Gideon Colliver",
+      "timestamp_ms": 1716166212737,
+      "content": "Hello there",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716166200872,
+      "content": "elise.bailey.05 changed the theme to Star Wars: The Acolyte",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Arthur Bond",
+      "timestamp_ms": 1716166187971,
+      "content": "Hello",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716164735984,
+      "content": "elise.bailey.05 named the group prepare the slides.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716164725239,
+      "content": "hello",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "elise",
+      "timestamp_ms": 1716164709060,
+      "content": "elise created the group.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "prepare the slides",
+  "is_still_participant": true,
+  "thread_path": "inbox/preparetheslides_8359722200709493",
+  "magic_words": [
+    
+  ],
+  "joinable_mode": {
+    "mode": 2,
+    "link": "https://ig.me/j/AbaKtuGFSeE57lVk/"
+  }
+}

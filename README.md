@@ -48,7 +48,8 @@ You may optionally override toString() for clean printing of messages.
 
 This is the core class that processes and stores message data. It contains the following methods:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   public interface DMAnalyzer {      void loadMessages(String filePath);      Map getMessageCountsByUser();        Map getMessageCountsFromUser();        List getMostCommonOneWordMessages(int limit);        LocalDate getDateOfLongestConversation(String username);        List getRecentMessages(String username, int count);    }   `
+Plain 
+<pre> ```java public interface DMAnalyzer { void loadMessages(String filePath); Map getMessageCountsByUser(); Map getMessageCountsFromUser(); List getMostCommonOneWordMessages(int limit); LocalDate getDateOfLongestConversation(String username); List getRecentMessages(String username, int count); } ``` </pre>
 
 **Notes:**
 
@@ -108,12 +109,23 @@ Example Output
 
 **Top 5 One-Word Messages:**
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   1. lol — 92 times    2. okay — 87 times    3. hey — 74 times    4. omg — 53 times    5. sure — 49 times   `
+Plain  
+1. lol   — 92 times  
+2. okay  — 87 times  
+3. hey   — 74 times  
+4. omg   — 53 times  
+5. sure  — 49 times
+
 
 **Recent Messages with @alexdoe:**
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   [2023-12-15 18:42] me: Did you finish the playlist?  [2023-12-15 18:43] alexdoe: Almost lol  [2023-12-15 18:45] me: Ok cool  ...  (20 messages total)   `
+Plain 
+[2023-12-15 18:42] me: Did you finish the playlist?  
+[2023-12-15 18:43] alexdoe: Almost lol  
+[2023-12-15 18:45] me: Ok cool  
+...  (20 messages total)
 
 **Most Active Day with @alexdoe:**
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   2023-12-15 — 47 messages exchanged   ` 
+Plain 
+2023-12-15 — 47 messages exchanged

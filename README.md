@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CS62-Final-Project
 
 # Instagram DM Analyzer
@@ -32,3 +33,6 @@ public interface InstagramDMAnalyzer {
     String getDateOfLongestConversation(String username);
     List<String> getRecentMessages(String username);
 }
+=======
+# CS62-Final-Project
+>>>>>>> 292b78e46e5b365fc07a7e43469080eb857d99fc

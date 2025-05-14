@@ -1,0 +1,978 @@
+{
+  "participants": [
+    {
+      "name": "Sammi"
+    },
+    {
+      "name": "Caoilainn"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1740508415198,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1740508154689,
+      "content": "Thank you baddie I miss you sm \u00f0\u009f\u0092\u0095\u00f0\u009f\u0092\u0095\u00f0\u009f\u0092\u0095",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Sammi"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1740508071798,
+      "content": "Happy birthday, beautiful!! \n\u00f0\u009f\u00a5\u00b3\u00f0\u009f\u0092\u009e Have the best day!!!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1725666092507,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1725665850717,
+      "content": "YESSS SO SO TRUE SAMMI",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Sammi",
+          "timestamp": 1725666092
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1708887660391,
+      "content": "HAVE THE BEST DAY BEAUTIFUL \u00f0\u009f\u0092\u009d",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1708889573
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1708886948426,
+      "content": "AAAAH THANK YOU QUEEN I MISS YOU SM",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1708868040879,
+      "content": "AHHHH HAPPY BIRTHDAY POOKIE GIRL ILYYYYYYY \u00f0\u009f\u00ab\u00b6\u00f0\u009f\u0092\u0098\u00f0\u009f\u00a5\u00b3",
+      "share": {
+        "link": "https://instagram.com/stories/caoilainnsc/3310368650660866370"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1707950382768,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1707947648608,
+      "content": "That\u00e2\u0080\u0099s so true I\u00e2\u0080\u0099m going to adopt this",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Sammi",
+          "timestamp": 1707950382
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1707947623756,
+      "content": "NOOOO HORRIFYING",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1707946973120,
+      "content": "And that\u00e2\u0080\u0099s pretty much it",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1707946966539,
+      "content": "I like to say that college dining hall food \u00e2\u0080\u009cdoes the job.\u00e2\u0080\u009d AKA it fills ur stomach and provides calories",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1707946938333,
+      "content": "LMAO",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1707946929901,
+      "content": "And if it\u00e2\u0080\u0099s not raw, that shit is drier than sand",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1707947625
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1707946917117,
+      "content": "I bit into a piece of chicken and it was squishy \u00e2\u0080\u0094 like raw squishy \u00f0\u009f\u0098\u00ad\u00f0\u009f\u0098\u00ad",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1707947616
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1707932456005,
+      "content": "Like it\u00e2\u0080\u0099s not horrible but it\u00e2\u0080\u0099s definitely not great",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1707932444541,
+      "content": "I mean it\u00e2\u0080\u0099s fine it\u00e2\u0080\u0099s just like the same five things on rotation as like the main option or the worst pizza you\u00e2\u0080\u0099ve ever tasted",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1707932413402,
+      "content": "NOOO IM SCARED",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1707888314263,
+      "content": "How is the food at pomona???",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1707888309515,
+      "content": "\u00f0\u009f\u0098\u00ad\u00f0\u009f\u0098\u00adGIRL don\u00e2\u0080\u0099t EVEN GET ME STARTED ON THE UVA MEAT \u00e2\u0080\u0094",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Caoilainn",
+          "timestamp": 1707932406
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1707887275408,
+      "content": "OMG THATS HORRIFYING",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1696905910776,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1696874095984,
+      "content": "Miss you too!!! I hope uva is the best\u00f0\u009f\u00a4\u00ad",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Sammi",
+          "timestamp": 1696905910
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1696874077714,
+      "content": "So trueeeeee",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1696869150296,
+      "content": "Miss u thooo hope ur having fun in school \u00f0\u009f\u0098\u009a\u00f0\u009f\u0098\u009a",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1696869139548,
+      "content": "Renaissance is so good \u00f0\u009f\u0098\u00ab",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1696866698802,
+      "content": "No it\u00e2\u0080\u0099s you and Beyonc\u00c3\u00a9 that are fr",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1696865889110,
+      "content": "u r indeed that girl",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1696866683
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685901038027,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/sammi_564193081642364/photos/345112739_1434725614009553_6159063471781061556_n_1434725610676220.jpg",
+          "creation_timestamp": 1685901037
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685890259116,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685888875690,
+      "content": "I can come at 1:30! Thank you!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Sammi",
+          "timestamp": 1685890259
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685887161040,
+      "content": "Would you want to come in at 1:30? Or do you prefer I come in the middle of your lesson",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685887108149,
+      "content": "Ms Teresa told me that she\u00e2\u0080\u0099ll be in from 1:00-1:45 to practice with suzie if we were interested in coming in to practice Schumann",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685844163314,
+      "content": "Alright thanks!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1685845691
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685843267090,
+      "content": "I just looked it up and it looks like the way people format it is Holberg Suite, Op. 40, 1. Pr\u00c3\u00a6ludium",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685843216560,
+      "content": "Oh yeah",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685843092430,
+      "content": "So do u think I should say praeludium or Holberg Suite #1?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685840842525,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/sammi_564193081642364/photos/351483189_1709758812823583_67333190804151010_n_1709758809490250.jpg",
+          "creation_timestamp": 1685840841
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685840699570,
+      "content": "I\u00e2\u0080\u0099m trying to figure out how to write it in the program",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685840691194,
+      "content": "Hey! Do u mind sending me the first page of your praeludium sheet music",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685720443628,
+      "content": "great tysm!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685720434757,
+      "content": "Thank you! I\u00e2\u0080\u0099ll do that now",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685720422083,
+      "content": "Also I made a few drafts of the program, so while you wait for your lesson, do you want to see if there\u00e2\u0080\u0099s any improvements that can be made?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685720382475,
+      "content": "That sounds perfect! Thanks!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685720369087,
+      "content": "Ms Teresa is gonna be in on Sunday so we can rehearse then if that\u00e2\u0080\u0099s ok",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685720351014,
+      "content": "Oh no problem! Don\u00e2\u0080\u0099t worry about it at all!!!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685720342244,
+      "content": "I should\u00e2\u0080\u0099ve texted u in advance but it slipped my mind Omggg",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685720333183,
+      "content": "Omg caoilainn I\u00e2\u0080\u0099m so so sorry but I found out that I can\u00e2\u0080\u0099t rehearse today",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685720270302,
+      "content": "Were we going to meet at 11:30 to practice the duet or did I get the time wrong. So sorry if I totally am wrong!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685664175779,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685659027823,
+      "content": "That sounds so cute! I\u00e2\u0080\u0099ll do that!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Sammi",
+          "timestamp": 1685664175
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685658957950,
+      "content": "Hey! So Suzie and I are planning on each bringing a little framed picture of ourselves as kids to put on the food table during the recital .. so please feel free to do the same!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685638789172,
+      "content": "Reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685631816595,
+      "content": "Sounds great! My lesson starts at noon",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Sammi",
+          "timestamp": 1685638789
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685629311903,
+      "content": "Sounds good! I might be there on Friday too so maybe we can play our duet for both teavhers",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685618062500,
+      "content": "Also, I have a lesson on Friday with Ms. Sonya and not tomorrow \u00f0\u009f\u0098\u008a",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685577187251,
+      "content": "great!! Cu then :)",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1685580373
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685576566009,
+      "content": "3 sounds good to me! To be safe",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685575962391,
+      "content": "Or maybe like 3:20 if you don\u00e2\u0080\u0099t think we\u00e2\u0080\u0099ll need as much time",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685575951985,
+      "content": "Ms Teresa wants to hear us at 4pm tmrw so do you want to meet at the rma building at 3 maybe?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685572581969,
+      "content": "Ofc!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685569681869,
+      "content": "ty!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685569114319,
+      "content": "Sure! My mom\u00e2\u0080\u0099s email address is adriennejmc@gmail.com and my dad\u00e2\u0080\u0099s is pnchristensen@gmail.com",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685568481487,
+      "content": "Also do u mind sending me the email address of one of ur parents so my dad can coordinate with them and suzie\u00e2\u0080\u0099s parents before the recital ?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685568456950,
+      "content": "thanks!! I\u00e2\u0080\u0099ll let her know",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685567793848,
+      "content": "I\u00e2\u0080\u0099m not sure yet, she said she\u00e2\u0080\u0099ll text me tonight because she just got back in the country, but I\u00e2\u0080\u0099ll let you know!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685567379710,
+      "content": "If not, I\u00e2\u0080\u0099ll just tell her that we\u00e2\u0080\u0099ll be rehearsing tgt by ourselves",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685567368891,
+      "content": "Hey caoilainn! Ms Teresa wants to know if you\u00e2\u0080\u0099re have a lesson with Sonya tmrw",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685534145798,
+      "content": "That sounds great! Thank you!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1685496914784,
+      "content": "awesome! I\u00e2\u0080\u0099m scheduling a lesson with Ms Teresa on Thursday (time TBD) so if you can, do you want to meet up at the building like 30 minutes before my lesson so we can rehearse? And then we can have her hear it and see if she has any notes",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1685491829350,
+      "content": "Also I am back in town so I\u00e2\u0080\u0099m free to work on the duet whenever! \u00f0\u009f\u0098\u008a",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1684598419341,
+      "content": "YES!!!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684598083805,
+      "content": "WE NEED TO TAKE PICS TGT AT OUR RECITAL OR ELSE I WILL HUNT U DOWN",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684598074110,
+      "content": "LOVE U MOREE",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684598059773,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1684597623260,
+      "content": "LOVE YOU SAMMI!!!!!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Sammi",
+          "timestamp": 1684598059
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1684597616391,
+      "content": "THANK YOU SO MUCH!!!!!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684596684747,
+      "content": "I\u00e2\u0080\u0099m so proud of u pookster \u00f0\u009f\u00a5\u00ba\u00f0\u009f\u00a5\u00ba",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684596674022,
+      "content": "and I loved the theme about how u cry about something bcuz u care sm \u00f0\u009f\u0098\u00ad\u00f0\u009f\u0098\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684596655789,
+      "content": "IT WAS SO FUNNY AND REAL",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684596652448,
+      "content": "I WAS OBSESSED WITH UR SPEECH U ATEEEEE SO HARD",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1684508216835,
+      "content": "Ok sounds good! Thanks!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684506668221,
+      "content": "Renting the 2nd piano at the church is $150",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684506654651,
+      "content": "Worst case scenario we don\u00e2\u0080\u0099t do the duet",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684506640014,
+      "content": "I\u00e2\u0080\u0099ll be free most likely",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684506582168,
+      "content": "lmk what date and time works for u !",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1684504334593,
+      "content": "Could we practice some then",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1684504327416,
+      "content": "I actually am going to be out of town from right after graduation until June \u00f0\u009f\u0098\u00ad\u00f0\u009f\u0098\u00ad\u00f0\u009f\u0098\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684447242592,
+      "content": "No problem! Next week works for me too :)",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1684445527885,
+      "content": "Wait actually I am so sorry but I totally forgot my family is having a graduation celebration dinner that night so I don\u00e2\u0080\u0099t think I can go then. I am so sorry about that!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1684440106768,
+      "content": "Thanks!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684439444913,
+      "content": "Great! I\u00e2\u0080\u0099ll meet you at 7 tmrw :)",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1684440107
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1684375934162,
+      "content": "That sounds good to me! Thank you!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684374208323,
+      "content": "So if that\u00e2\u0080\u0099s not too late, maybe we could rehearse sometime in that frame?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684374198133,
+      "content": "I think that the chamber group is rehearsing at like 7-9 pm on Friday",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1684374177500,
+      "content": "Heyy! Ms Teresa said that Ms. Sonya\u00e2\u0080\u0099s room is unlocked until she comes back and that we can rehearse whenever the building is open",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1683666538674,
+      "content": "THANK YOU!!!!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1683666310835,
+      "content": "AHHH CALI GURLLL \u00f0\u009f\u00ab\u00b6 SO EXCITED FOR U!!!!! \u00f0\u009f\u0098\u00ad\u00f0\u009f\u0098\u00ad",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1683666528
+        }
+      ],
+      "share": {
+        "link": "https://instagram.com/stories/caoilainnsc/3099100643763708686"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1675982667976,
+      "content": "Reacted \u00e2\u009d\u00a4\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1675978886457,
+      "content": "Great, thank you so much!\nThat sounds good!!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Sammi",
+          "timestamp": 1675982667
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1675976588112,
+      "content": "No worry at all! We\u00e2\u0080\u0099re also figuring out logistics n stuff :)",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1675976578727,
+      "content": "Maybe 20 minutes?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1675974800274,
+      "content": "Thank you! Do you know about how long these pieces would be all together? Sorry to bother you I\u00e2\u0080\u0099m working with Ms. Sonya to figure out how many pieces I should do!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1675974393348,
+      "content": "Also I have sm recital anxiety so I made as much as I could duets \u00f0\u009f\u0098\u00ae\u00e2\u0080\u008d\u00f0\u009f\u0092\u00a8",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1675974346750,
+      "content": "Idk why i got stuck playing so much it\u00e2\u0080\u0099s kinda crazy lol so pls don\u00e2\u0080\u0099t feel like u have to do as much as this ^^",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1675974312900,
+      "content": "Possibly a duet with suzie ???",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1675974308318,
+      "content": "Yea sure! Other than our duet, im doing a duet with my little brother, a trio with my grandpa and little brother, and maybe 2 solo pieces",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1675973768956,
+      "content": "Would you be able to tell me about how many pieces you\u00e2\u0080\u0099re playing for the senior recital or about how long they all are?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1670212827807,
+      "content": "thank u :))",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1670212823036,
+      "content": "Ofc!!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1670208371463,
+      "content": "You did great with everything too and I loved your speech!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Caoilainn",
+      "timestamp_ms": 1670208356006,
+      "content": "Thank you so much!!! \u00f0\u009f\u0098\u00ad",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1670204896841,
+      "content": "And ur senior speech at church got me in my feels omg it was so touching \u00f0\u009f\u00a5\u00ba",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1670208343
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sammi",
+      "timestamp_ms": 1670204876552,
+      "content": "U KILLED IT GIRL \u00f0\u009f\u0098\u00ab\u00f0\u009f\u0099\u008c",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Caoilainn",
+          "timestamp": 1670208343
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Sammi",
+  "is_still_participant": true,
+  "thread_path": "inbox/sammi_564193081642364",
+  "magic_words": [
+    
+  ]
+}

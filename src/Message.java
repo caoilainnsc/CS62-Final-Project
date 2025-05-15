@@ -1,5 +1,4 @@
 import java.util.List;
-//import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -8,101 +7,107 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Message {
+public class Message 
+{
+    // Who the sender is
     private String sender_name;
+    // What the timestamp is
     private long timestamp_ms;
+    // Content of message
     private String content;
 
     // Getter methods
-    public String getSender_name() {
+
+    /**
+     * Get the sender's name
+     * @return String: sender's name
+     */
+    public String getSender_name() 
+    {
         return sender_name;
     }
 
-    public long getTimestamp_ms() {
+    /**
+     * Get the timestamp
+     * @return Long: the timestamp to be converted to month day year fomat
+     */
+    public long getTimestamp_ms() 
+    {
         return timestamp_ms;
     }
 
-    public String getContent() {
+    /**
+     * Gets the content of the message
+     * @return String: content of the message
+     */
+    public String getContent() 
+    {
         return content;
     }
 
     // Setter methods
-    public void setSender_name(String sender_name) {
+    
+    /**
+     * Set the sender name
+     * @param sender_name - String of what the new name is
+     */
+    public void setSender_name(String sender_name) 
+    {
         this.sender_name = sender_name;
     }
-
-    public void setTimestamp_ms(long timestamp_ms) {
-        this.timestamp_ms = timestamp_ms;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
-    }
-
-
-
-
-
-/*
- * 
- * 
-
-
-
-public class Message {
-    public String sender_name;
-    public long timestamp_ms;
-    public String content;
-
-    // Optional: constructor
-    public Message(String sender_name, long timestamp_ms, String content) {
-        this.sender_name = sender_name;
-        this.timestamp_ms = timestamp_ms;
-        this.content = content;
-    }
-
-
-    public String getSender() {
-        return sender_name;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public String getTimestamp() {
-       return formatTimestamp();
-         
-    }
- * 
- */
-
-
-
 
     /**
-     * Returns true if the message is from or to the given username.
+     * Changes the time stamp
+     * @param timestamp_ms - long (to be converted to month day year fomat) of timestamp
      */
-    public boolean isFromOrTo(String username) {
+    public void setTimestamp_ms(long timestamp_ms) 
+    {
+        this.timestamp_ms = timestamp_ms;
+    }
+
+    /**
+     * Sets the message content
+     * @param content - String of what the message says
+     */
+    public void setContent(String content) 
+    {
+        this.content = content;
+    }
+
+    // Other methods
+
+    /**
+     * Returns if the message is either from or two a given username
+     * @param username - String of the username to check
+     * @return Boolean: if the message is to or from username
+     */
+    public boolean isFromOrTo(String username) 
+    {
         return sender_name.equals(username);
     }
-    public String formatTimestamp() {
+
+    /**
+     * Reformats the timestamp from Epoch to month day year format
+     * @return
+     */
+    public String formatTimestamp() 
+    {
+        // Creates object holding timestamp in Epcoch format
         Instant instant = Instant.ofEpochMilli(timestamp_ms);
-        ZoneId zone = ZoneId.systemDefault(); // Still needed to convert Instant to LocalDateTime
+        // Gets the time zone
+        ZoneId zone = ZoneId.systemDefault();
+        // Finds the local time of the timestamp
         LocalDateTime dateTime = LocalDateTime.ofInstant(instant, zone);
-    
+        // Creates a formatter to change it to year, month day, hours, minutes, seconds
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        // Makes a string that has the formatted date
         String formattedDate = dateTime.format(formatter);
+        // Returs the formatted date
         return formattedDate;
     }
 
-   // @Override
-   // public String toString() {
-  //      return "[" + timestamp_ms + "] " + sender_name + ": " + content;
-   // }
-
-    public static void main(String args[]) {
-       // private List<Message> messages = new ArrayList<>();
+    public static void main(String args[]) 
+    {
     }
 
 }

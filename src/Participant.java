@@ -1,4 +1,5 @@
-public class Participant {
+public class Participant 
+{
     private String name;
 
     public String getName() {

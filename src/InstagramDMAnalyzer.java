@@ -1,10 +1,11 @@
 import java.util.List;
 import java.util.Map;
 
-public interface InstagramDMAnalyzer {
+public interface InstagramDMAnalyzer 
+{
 
     /**
-     * Loads the dataset from a file path (e.g., JSON or CSV format).
+     * Loads the dataset from a file path (in JSON fomat).
      * @param filePath Path to the dataset file.
      */
     void loadDataset(String filePath);

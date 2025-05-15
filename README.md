@@ -94,11 +94,11 @@ Instructions to Analyze Your Data
 *   This folder will be what you provide when asked that will be analyzed
     
 
-### 2\. Load and Parse Messages
+### 2\. NEEDS TO BE EDITED - USER INSTRUCTIONS ON HOW TO GET FOLDER INTO PROGRAM
 
 Start by implementing the loadMessages method to read the JSON file and convert each entry into a Message object.
 
-### 3\. Develop Features One-by-One
+### 3\. NEEDS TO BE EDITED - USER INSTRUCTIONS ON HOW TO USE FEATURES/MAIN
 
 Focus on one method at a time. For example:
 
@@ -109,32 +109,34 @@ Focus on one method at a time. For example:
 *   Once stable, move to the next method like getRecentMessages.
     
 
-### 4\. Testing & Output
-
-Use main methods or unit tests to verify each feature. Print outputs in readable formats to validate correctness.
-
 Example Output
 --------------
 
-**Top 5 One-Word Messages:**
+**Recent Messages with Kate:**
 
-Plain  
-1. lol   — 92 times  
-2. okay  — 87 times  
-3. hey   — 74 times  
-4. omg   — 53 times  
-5. sure  — 49 times
+Thank you!!!
+Liked a message
+Happy Birthday Kate :)
+Ok perf, so excited
+212 Sagehen Ave
+That's so fun, will definitely be there. What's your address
+Ok cool, well I'm throwing a party on Saturday from like 8-12 if you want to come
+No, I should be free
+That's so real totally get it haha. Are you doing anything this weekend
+I'm good, super busy with work lol
+Hey, how are you doing?
+Wait yes let's cross our fingers lol
+I hope we get to be in the wedding that would be so fun
+Haha yeah. And yes they are like the perfect couple
+Took long enough, lol, but Emily's great
+I know I'm so glad
+Wait aw that's so exciting for her
+She just got engaged!
+Omg no what's going on
+Did you hear about Julia?
 
-
-**Recent Messages with @alexdoe:**
-
-Plain 
-[2023-12-15 18:42] me: Did you finish the playlist?  
-[2023-12-15 18:43] alexdoe: Almost lol  
-[2023-12-15 18:45] me: Ok cool  
-...  (20 messages total)
 
 **Most Active Day with @alexdoe:**
 
-Plain 
-2023-12-15 — 47 messages exchanged
+Date of longest conversation with Kate:
+2023-2-25

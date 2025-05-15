@@ -1,32 +1,29 @@
-# CS62-Final-Project
-
-Instagram DM Analyzer
-=====================
+# CS62-Final-Project - Instagram DM Data Analyzer
 
 Description
 -----------
 
-In this project, you will create a Java application that processes your downloaded Instagram direct messages (DMs) and extracts insightful statistics and summaries. By analyzing message metadata and text content, your program will offer multiple features that allow you to explore trends and patterns in your conversations.
+A Java application that processes the JSON files of your Instagram direct messages (DMs), available to download on your Instagram account from the Meta data center. This program analyzes the message to show metadata about the messages (pulling from information about the user, message content, and timestamp). This provides interesting and insightful statistics regarding your message history with specific individuals that you can use and compare to messages in other chats. The program offers analysis using data from length of message, date of message, and frequency of word use.
 
-You will write a program that reads in a dataset of DMs (exported from the Meta Accounts Center), parses and organizes the messages, and implements various functionalities. These include computing message counts per contact, identifying the most frequently used one-word messages, retrieving the most active conversation date with a specific user, and displaying recent conversations.
+The program reads from a dataset of DMs exported from the Meta Accounts center. It parses and organizes the messages, and then sorts and analyzes them in regards to the various features allowed by the program. These include the messages counts per contact, most frequently used one-word messages, most date with the most messages sent and recieved, and the most recent messages from the conversation. 
 
-The project emphasizes core concepts in Java, such as file I/O, object-oriented design, sorting and filtering with collections, and effective use of data structures like HashMap, List, and Set.
+This project emphasizes core concepts in Java, such as file I/O, object-oriented design, sorting and filtering with collections, and effective use of data structures, more specifically, a custom hash table.
 
 Features
 --------
 
-Your application will support the following operations:
+The application supports the following operations:
 
-1.  **Display Total Messages Per User**Calculate and display the number of messages sent _to_ and _from_ each user in the dataset.
+1.  **Display Total Messages Per User**Calculate and display the number of messages sent and recieved from each user in the dataset.
     
-2.  **Most Common One-Word Messages**Analyze all messages across all conversations and return the most frequently used one-word messages (e.g., “lol”, “okay”, “hey”).
+2.  **Most Common One-Word Messages**Analyze all messages across a conversation and return the most frequently used one-word messages (e.g., “lol”, “okay”, “hey”).
     
 3.  **Date of Longest Conversation**Given a username, determine the date with the largest number of exchanged messages between you and that person.
     
-4.  **Recent Messages Viewer**Given a username, return the 20 most recent messages from your conversation with that user, sorted by timestamp in descending order.
+4.  **Recent Messages**Given a username, return the 20 most recent messages from your conversation with that user, sorted by timestamp in descending order.
     
 
-Suggested Classes
+Classes to Store and Quickly Analyze Data
 -----------------
 
 ### Message
@@ -40,18 +37,10 @@ Represents a single message and contains:
 *   String content
     
 *   LocalDateTime timestamp
-    
-
-You may optionally override toString() for clean printing of messages.
 
 ### DMAnalyzer
 
-This is the core class that processes and stores message data. It contains the following methods:
-
-Plain 
-<pre> ```java public interface DMAnalyzer { void loadMessages(String filePath); Map getMessageCountsByUser(); Map getMessageCountsFromUser(); List getMostCommonOneWordMessages(int limit); LocalDate getDateOfLongestConversation(String username); List getRecentMessages(String username, int count); } ``` </pre>
-
-**Notes:**
+This is the class that processes and stores message data. It contains the following methods:
 
 *   loadMessages reads from a file and populates a List.
     
@@ -66,23 +55,43 @@ Plain
 *   getRecentMessages(String username, int count) returns the most recent count messages exchanged with the specified user.
     
 
-Data Structures
+Data Structures - TO BE EDITED
 ---------------
 
-Each feature is backed by thoughtfully chosen data structures:
+The data structure implemented to efficently sort and understand the message data is a custom hash table. The 
 
-FeatureData StructureReasonMessage count per userMapEfficient mapping of usernames to message countCommon one-word messagesMap + PriorityQueue or StreamFrequency counting with fast top-k retrievalLongest conversation dateMapAggregate messages per date for a given userRecent messagesList (filtered + sorted)Flexible sorting and sublisting by timestamp
-
-Getting Started
+Instructions to Analyze Your Data
 ---------------
 
-### 1\. Prepare Your Dataset
+### 1\. Download Your Instagram DM Information from Meta
 
-*   Go to [Meta Accounts Center](https://accountscenter.meta.com/) > “Your Information” > “Download Your Information”.
+*   On your computer, open the Instagram website and go to your profile
+
+*   Click on the gear icon next to "Edit Profle" and "View Archive"
+
+*   Go to "Settings and Privacy" (or alternatively start by clicking "More" on the bottom right of the screen, then "Settings"
     
-*   Export your Instagram messages as JSON and unzip the archive.
+*   Go to the "Meta Accounts Center" where all your data from any Meta accounts that you may have connected is stored
+
+*   On the right, go to the "Your Information and Permissions" tab
+
+*   Go to "Download your information"
+
+*   Chose "Download or Transfer Information" and chose "Some of Your Information" - this allows you to only download your message data rather than every piece of data Meta has from your profile
+
+*   Under "Your Instagram Activity" check the box at the bottom of the group that says "Messages" and click the blue "Next" button
+
+*   Chose "Download Information to Device"
+
+*   In the next screen chose the date range you want your files to contain messages from, then change "Format" from HTML to JSON (important or the data will not be analyzable with this program) and click save, and chose low media quality (this program does not analyze photos, videos, or audios, so it is better to have them be as small as possible)
+
+*   After you select the blue "Create Files" button, it will start the process of retrieving your information. Depending on how much data you have, it will send you an email with a link to the Meta Accounts Center to download your information after a period of time (up to four days). Download this information to your computer.
+
+*   Unzip the file downloaded. There will be a folder called "your-instagram-message" that containx the folder "inbox". This is where each of your conversations are held.
+
+*   To store the information you want analyzed, create a folder to hold all of the JSON files of your conversations. For any file that you want to have analyzed, go to the folder of that user (the name of the file is the user's name and a number), select the file (or files) that says "messages_" + number + ".json" - if there are multiple files because the conversation is large, you can name them with the user and the number on the json file (ex. "kate1.json" and "kate2.json"), but you will have to analyze these conversations separately (the file numbers go from 1 being most recent to the biggest number being the oldest part of the chat).
     
-*   Find the relevant message data file (e.g., message\_1.json).
+*   This folder will be what you provide when asked that will be analyzed
     
 
 ### 2\. Load and Parse Messages

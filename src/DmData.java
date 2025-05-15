@@ -4,23 +4,44 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class DmData {
+public class DmData 
+{
+    // List of participants in the chat
     private List<Participant> participants;
+    // List of the messages in the chat
     private List<Message> messages;
 
-    public List<Participant> getParticipants() {
+     /**
+     * Returns a list of participants in a chat
+     * @return list of participants
+     */
+    public List<Participant> getParticipants() 
+    {
         return participants;
     }
 
-    public void setParticipants(List<Participant> participants) {
+    /**
+     * Updates the list of participants to a different list
+     */
+    public void setParticipants(List<Participant> participants) 
+    {
         this.participants = participants;
     }
 
-    public List<Message> getMessages() {
+    /**
+     * Returns a messages in a chat
+     * @return list of messages
+     */
+    public List<Message> getMessages() 
+    {
         return messages;
     }
 
-    public void setMessages(List<Message> messages) {
+    /**
+     * Updates the list of messages to a different list
+     */
+    public void setMessages(List<Message> messages) 
+    {
         this.messages = messages;
     }
 }

@@ -52,7 +52,11 @@ public class Main
             messageTree.insert(msg);
         }
 
-        System.out.println(messageTree.getMostRecent(20));
+
+        for (Message recent : messageTree.getMostRecent(20))
+        {
+            System.out.println(recent.getContent());
+        }
 
         // Count messages per date
         // Format data to year month day

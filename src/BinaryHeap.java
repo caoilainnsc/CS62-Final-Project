@@ -4,6 +4,12 @@ public class BinaryHeap
     private Message[] a;
     private int n;
 
+    public BinaryHeap()
+    {
+        a = new Message[10];
+        n = 0;
+    }
+
     private void swim(int k) 
     {
         while (k > 1 && a[k/2].compareTo(a[k])<0) 
@@ -18,7 +24,7 @@ public class BinaryHeap
     public void resize(int newLength)
     {
         Message[] temp = new Message[newLength];
-        for (int i = 1; i < n; i++)
+        for (int i = 1; i <= n; i++)
         {
             temp[i] = a[i];
         }
@@ -27,7 +33,7 @@ public class BinaryHeap
 
     public void insert(Message x) 
     {
-        if (n >= a.length - 1)
+        if (n == a.length - 1)
         {
             this.resize(2 * a.length);
         }
@@ -68,13 +74,13 @@ public class BinaryHeap
     public ArrayList<Message> getMostRecent(int num)
     {
         ArrayList<Message> recents = new ArrayList<Message>();
-        if (!(num < 1) || a.length == 0)
+        if ( !(num < 1 || n == 0))
         {
-            if (num >= a.length)
+            if (num >= n)
             {
-                num = a.length - 1;
+                num = n - 1;
             }
-            for (int i = 0; i < num; i++)
+            for (int i = 1; i < num; i++)
             {
                 recents.add(a[i]);
             }

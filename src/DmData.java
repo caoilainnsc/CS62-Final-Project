@@ -1,5 +1,7 @@
 import java.util.List;
+import java.util.Objects;
 import java.io.File;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -43,5 +45,17 @@ public class DmData
     public void setMessages(List<Message> messages) 
     {
         this.messages = messages;
+    }
+
+
+    public int hashCode()
+    {
+        return Objects.hash(participants, messages);
+    }
+
+    public boolean equals(DmData toCheck)
+    {
+        return (this.participants.equals(toCheck.getParticipants()) && 
+                    this.messages == toCheck.getMessages());
     }
 }

@@ -123,72 +123,77 @@ public class Main
         System.out.print("Enter username to analyze:\n");
         // Get user input of username
         String name = scanner.nextLine().trim();
-
-        // Load messages from json file
-        ArrayList<Message> messages = userChats.loadMessagesFromParticipant(name);
-
-        // If there are no messages
-        if (messages.isEmpty()) 
+        while (!name.equals("STOP"))
         {
-            // Return that there were no messages found
-            System.out.println("No messages found.");
-            return;
-            
-        }
+            // Load messages from json file
+            ArrayList<Message> messages = userChats.loadMessagesFromParticipant(name);
 
-        System.out.println("What would you like to find? For recent messages, enter R. "
-                            + "To find the longest message, enter L."
-                            + "To find the date with the longest conversation, enter C."
-                            + "To find all messages a word appears in, enter W." 
-                            + "To find all messages from a date, enter D. "
-                            + "To end, enter STOP");
-        String option = scanner.nextLine().trim();
-
-        while (!option.equals("STOP"))
-        {
-            if (option.equals("R"))
+            // If there are no messages
+            if (messages.isEmpty()) 
             {
-                System.out.println("How many of the most recent messages would you like to print? \n");
-                int numMessages = Integer.parseInt(scanner.nextLine());
-                printMostRecents(numMessages, messages);
-            }
-
-            else if (option.equals("L"))
-            {
-                System.out.println("The longest message was: /n");
-                printLongest(messages);
-            }
-            else if (option.equals("C"))
-            {
-                printLongestConvoDate(messages);
-            }
-            else if (option.equals("W"))
-            {
-                System.out.println("What word would you like to find the messages it was used in?");
-                String wordToFind = scanner.nextLine().split(" ")[0];
-                printFromWord(messages, wordToFind);
-            }
-
-            else if (option.equals("D"))
-            {
-                System.out.println("What date would you like to get the conversation from (yyyy-MM-dd)?");
-                String dateToFind = scanner.nextLine();
-                printFromDate(messages, dateToFind);
-            }
-            else
-            {
-                System.out.println("Please enter a valid option");
+                // Return that there were no messages found
+                System.out.println("No messages found.");
+                return;
+                
             }
 
             System.out.println("What would you like to find? For recent messages, enter R. "
-                            + "To find the longest message, enter L."
-                            + "To find the date with the longest conversation, enter C."
-                            + "To find all messages a word appears in, enter W." 
-                            + "To find all messages from a date, enter D. "
-                            + "To end, enter STOP");
-            option = scanner.nextLine();
+                                + "To find the longest message, enter L."
+                                + "To find the date with the longest conversation, enter C."
+                                + "To find all messages a word appears in, enter W." 
+                                + "To find all messages from a date, enter D. "
+                                + "To end, enter STOP");
+            String option = scanner.nextLine().trim();
+
+            while (!option.equals("STOP"))
+            {
+                if (option.equals("R"))
+                {
+                    System.out.println("How many of the most recent messages would you like to print? \n");
+                    int numMessages = Integer.parseInt(scanner.nextLine());
+                    printMostRecents(numMessages, messages);
+                }
+
+                else if (option.equals("L"))
+                {
+                    System.out.println("The longest message was: /n");
+                    printLongest(messages);
+                }
+                else if (option.equals("C"))
+                {
+                    printLongestConvoDate(messages);
+                }
+                else if (option.equals("W"))
+                {
+                    System.out.println("What word would you like to find the messages it was used in?");
+                    String wordToFind = scanner.nextLine().split(" ")[0];
+                    printFromWord(messages, wordToFind);
+                }
+
+                else if (option.equals("D"))
+                {
+                    System.out.println("What date would you like to get the conversation from (yyyy-MM-dd)?");
+                    String dateToFind = scanner.nextLine();
+                    printFromDate(messages, dateToFind);
+                }
+                else
+                {
+                    System.out.println("Please enter a valid option");
+                }
+
+                System.out.println("What would you like to find? For recent messages, enter R. "
+                                + "To find the longest message, enter L."
+                                + "To find the date with the longest conversation, enter C."
+                                + "To find all messages a word appears in, enter W." 
+                                + "To find all messages from a date, enter D. "
+                                + "To end, enter STOP");
+                option = scanner.nextLine();
+            }
+            System.out.println("Enter a different use or enter STOP to end");
+            name = scanner.nextLine();
         }
         // Close scanner
         scanner.close();
     }
+        
 }

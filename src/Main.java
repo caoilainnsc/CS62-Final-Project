@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Main 
 {
 
-    public void printMostRecents(int num, ArrayList<Message> givenMessages)
+    public static void printMostRecents(int num, ArrayList<Message> givenMessages)
     {
         // Return what recent messages are
         System.out.println("Recent messages:");
@@ -25,46 +25,37 @@ public class Main
         }
     }
 
-    public void printLongest(int num, ArrayList<Message> givenMessages)
+    public static void printLongest(ArrayList<Message> givenMessages)
     {
-        System.out.println("Longest messages: ");
         BinaryHeapLength messageTree = new BinaryHeapLength();
         for (Message msg : givenMessages) 
         {
             messageTree.insert(msg);
         }
 
-        for (Message recent : messageTree.getMostRecent(num))
+        System.out.println(messageTree.getLongest().getContent());
+    }
+
+    public static void printFromDate(ArrayList<Message> givenMessages, String date)
+    {
+        DateHash dateMsg = new DateHash(givenMessages);
+        for(String message : dateMsg.getMessageAtDate(date))
         {
-            System.out.println(recent.getContent());
+            System.out.println(message);
         }
     }
 
-    public static void main(String[] args) 
+    public static void printFromWord(ArrayList<Message> givenMessages, String word)
     {
-        // Create scanner for user input
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter the file path of folder containing JSON files:\n");
-        String filePath = scanner.nextLine().trim();
-        InstagramDMLoader userChats = new InstagramDMLoader(filePath);
-        // Ask user for username to get conversation data from
-        System.out.print("Enter username to analyze:\n");
-        // Get user input of username
-        String name = scanner.nextLine().trim();
-
-        // Load messages from json file
-        ArrayList<Message> messages = userChats.loadMessagesFromParticipant(name);
-
-        // If there are no messages
-        if (messages.isEmpty()) 
+        DateHash wordMsg = new DateHash(givenMessages);
+        for(String message : wordMsg.getMessageAtDate(word))
         {
-            // Return that there were no messages found
-            System.out.println("No messages found.");
-            return;
-            
+            System.out.println(message);
         }
-        
+    }
+
+    public static void printLongestConvoDate(ArrayList<Message> givenMessages)
+    {
         // Count messages per date
         // Format data to year month day
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
@@ -72,7 +63,7 @@ public class Main
         Map<String, Integer> messageCountByDate = new HashMap<>();
 
         // For the messages in chat
-        for (Message msg : messages) 
+        for (Message msg : givenMessages) 
         {
             // Create the date from the timestamp to the format of month day year
             String date = sdf.format(new Date(msg.getTimestamp_ms()));
@@ -111,18 +102,91 @@ public class Main
         }
 
         // Tell the user the date of the longest conversation with the requested username
-        System.out.println("\nDate of longest conversation with " + name + ":");
+        System.out.println("\nDate of longest conversation: ");
         // If there was data found 
         if (maxDate != null) 
         {
             // Print the longest date
             System.out.println(maxDate);
         }
-        // If there were no messages 
-        else 
+    }
+
+    public static void main(String[] args) 
+    {
+        // Create scanner for user input
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the file path of folder containing JSON files:\n");
+        String filePath = scanner.nextLine().trim();
+        InstagramDMLoader userChats = new InstagramDMLoader(filePath);
+        // Ask user for username to get conversation data from
+        System.out.print("Enter username to analyze:\n");
+        // Get user input of username
+        String name = scanner.nextLine().trim();
+
+        // Load messages from json file
+        ArrayList<Message> messages = userChats.loadMessagesFromParticipant(name);
+
+        // If there are no messages
+        if (messages.isEmpty()) 
         {
-            // Return no data was found
-            System.out.println("No data found.");
+            // Return that there were no messages found
+            System.out.println("No messages found.");
+            return;
+            
+        }
+
+        System.out.println("What would you like to find? For recent messages, enter R. "
+                            + "To find the longest message, enter L."
+                            + "To find the date with the longest conversation, enter C."
+                            + "To find all messages a word appears in, enter W." 
+                            + "To find all messages from a date, enter D. "
+                            + "To end, enter STOP");
+        String option = scanner.nextLine().trim();
+
+        while (!option.equals("STOP"))
+        {
+            if (option.equals("R"))
+            {
+                System.out.println("How many of the most recent messages would you like to print? \n");
+                int numMessages = Integer.parseInt(scanner.nextLine());
+                printMostRecents(numMessages, messages);
+            }
+
+            else if (option.equals("L"))
+            {
+                System.out.println("The longest message was: /n");
+                printLongest(messages);
+            }
+            else if (option.equals("C"))
+            {
+                printLongestConvoDate(messages);
+            }
+            else if (option.equals("W"))
+            {
+                System.out.println("What word would you like to find the messages it was used in?");
+                String wordToFind = scanner.nextLine().split(" ")[0];
+                printFromWord(messages, wordToFind);
+            }
+
+            else if (option.equals("D"))
+            {
+                System.out.println("What date would you like to get the conversation from (yyyy-MM-dd)?");
+                String dateToFind = scanner.nextLine();
+                printFromDate(messages, dateToFind);
+            }
+            else
+            {
+                System.out.println("Please enter a valid option");
+            }
+
+            System.out.println("What would you like to find? For recent messages, enter R. "
+                            + "To find the longest message, enter L."
+                            + "To find the date with the longest conversation, enter C."
+                            + "To find all messages a word appears in, enter W." 
+                            + "To find all messages from a date, enter D. "
+                            + "To end, enter STOP");
+            option = scanner.nextLine();
         }
         // Close scanner
         scanner.close();

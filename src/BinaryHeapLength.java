@@ -71,20 +71,9 @@ public class BinaryHeapLength
         return max;
     }
 
-    public ArrayList<Message> getMostRecent(int num)
+    public Message getLongest()
     {
-        ArrayList<Message> recents = new ArrayList<Message>();
-        if ( !(num < 1 || n == 0))
-        {
-            if (num >= n)
-            {
-                num = n - 1;
-            }
-            for (int i = 1; i < num; i++)
-            {
-                recents.add(a[i]);
-            }
-        }
-        return recents;
+        ArrayList<Message> longest = new ArrayList<Message>();
+        return longest.get(0);
     }
 }

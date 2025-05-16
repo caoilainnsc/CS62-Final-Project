@@ -73,7 +73,6 @@ public class BinaryHeapLength
 
     public Message getLongest()
     {
-        ArrayList<Message> longest = new ArrayList<Message>();
-        return longest.get(0);
+        return a[1];
     }
 }

@@ -1,8 +1,10 @@
 import java.util.List;
+import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 
@@ -102,12 +104,55 @@ public class Message
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         // Makes a string that has the formatted date
         String formattedDate = dateTime.format(formatter);
-        // Returs the formatted date
+        // Returns the formatted date
         return formattedDate;
     }
 
-    public static void main(String args[]) 
+    public int compareToDate(Message toCheck)
     {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        String date1 = sdf.format(new Date(this.getTimestamp_ms()));
+        String date2 = sdf.format(new Date(toCheck.getTimestamp_ms()));
+
+        if (date1.compareTo(date2) == 0)
+        {
+            Integer hour1 = Integer.valueOf(this.formatTimestamp().substring(11, 13));
+            Integer hour2 = Integer.valueOf(toCheck.formatTimestamp().substring(11, 13));
+            Integer minute1 = Integer.valueOf(this.formatTimestamp().substring(14, 16));
+            Integer minute2 = Integer.valueOf(toCheck.formatTimestamp().substring(14, 16));
+            Integer second1 = Integer.valueOf(this.formatTimestamp().substring(17, 19));
+            Integer second2 = Integer.valueOf(toCheck.formatTimestamp().substring(17, 19));
+
+            if (!hour1.equals(hour2))
+            {
+                return hour1.compareTo(hour2);
+            }
+            else if (!minute1.equals(minute2))
+            {
+                return minute1.compareTo(minute2);
+            }
+            else
+            {
+                return second1.compareTo(second2);
+            }
+        }
+        return date1.compareTo(date2);
+    }
+
+    public int compareToLength(Message toCheck)
+    {
+        if (this.getContent().length() == toCheck.getContent().length())
+        {
+            return 0;
+        }
+        else if (this.getContent().length() > toCheck.getContent().length())
+        {
+            return 1;
+        }
+        else
+        {
+            return -1;
+        }
     }
 
 }

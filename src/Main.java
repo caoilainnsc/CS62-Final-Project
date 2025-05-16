@@ -3,20 +3,58 @@ import java.util.List;
 import java.util.Scanner;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.ArrayList;
 
 public class Main 
 {
+
+    public void printMostRecents(int num, ArrayList<Message> givenMessages)
+    {
+        // Return what recent messages are
+        System.out.println("Recent messages:");
+        BinaryHeapDate messageTree = new BinaryHeapDate();
+        // For all messages in chat
+        for (Message msg : givenMessages) 
+        {
+            messageTree.insert(msg);
+        }
+
+        for (Message recent : messageTree.getMostRecent(num))
+        {
+            System.out.println(recent.getContent());
+        }
+    }
+
+    public void printLongest(int num, ArrayList<Message> givenMessages)
+    {
+        System.out.println("Longest messages: ");
+        BinaryHeapLength messageTree = new BinaryHeapLength();
+        for (Message msg : givenMessages) 
+        {
+            messageTree.insert(msg);
+        }
+
+        for (Message recent : messageTree.getMostRecent(num))
+        {
+            System.out.println(recent.getContent());
+        }
+    }
+
     public static void main(String[] args) 
     {
         // Create scanner for user input
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the file path of folder containing JSON files:\n");
+        String filePath = scanner.nextLine().trim();
+        InstagramDMLoader userChats = new InstagramDMLoader(filePath);
         // Ask user for username to get conversation data from
-        System.out.print("Enter username to analyze: ");
+        System.out.print("Enter username to analyze:\n");
         // Get user input of username
         String name = scanner.nextLine().trim();
 
         // Load messages from json file
-        List<Message> messages = InstagramDMLoader.loadMessagesFromParticipant("Message JSON Files", name);
+        ArrayList<Message> messages = userChats.loadMessagesFromParticipant(name);
 
         // If there are no messages
         if (messages.isEmpty()) 
@@ -26,37 +64,7 @@ public class Main
             return;
             
         }
-
-        // Creates comparator for messages 
-        Collections.sort(messages, new Comparator<Message>() 
-        {
-            // Gets longest message
-            public int compare(Message m1, Message m2) 
-            {
-                // The for the longest messa
-                return Long.compare(m2.getTimestamp_ms(), m1.getTimestamp_ms());
-            }
-        });
-
-        // Return what recent messages are
-        System.out.println("Recent messages from " + name + ":");
-        // Starts a count to go through (to get first 20)
-        int count = 0;
-        // For all messages in chat
-        for (Message msg : messages) 
-        {
-            // If the message is non-empty
-            if (msg.getContent() != null) 
-            {
-                // Print message
-                System.out.println(msg.getContent());
-                // Increment number of messages
-                count++;
-            }
-            // If it is the 20th message, stop loop
-            if (count == 20) break;
-        }
-
+        
         // Count messages per date
         // Format data to year month day
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");

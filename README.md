@@ -21,9 +21,59 @@ The application supports the following operations:
 3.  **Date of Longest Conversation**Given a username, determine the date with the largest number of exchanged messages between you and that person.
     
 4.  **Recent Messages**Given a username, return the 20 most recent messages from your conversation with that user, sorted by timestamp in descending order.
-    
 
-Classes to Store and Quickly Analyze Data
+
+
+Dataset Format 
+--------
+
+The dataset comes from exporting messages using the [Meta Accounts Center](https://accountscenter.meta.com/). JSON is used due to its structured and easy-to-parse format. Each file contains:
+
+```json
+{
+  "participants": [ {"name": "User A"}, {"name": "User B"} ],
+  "messages": [
+    {
+      "sender_name": "User A",
+      "timestamp_ms": 1716673008104,
+      "content": "Hey!",
+      "reactions": [...],
+      "is_geoblocked_for_viewer": false
+    }
+  ]
+}
+```
+
+Adding Jackson API to Java Project
+--------
+   
+For our java program to be able to read our various JSON files and convert them to java objects, we have to manually add three core jackson libraries to our code. First, create a java folder in your directory titled lib/. Then download these three Jackson JAR files to your computer:
+
+*   https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar 
+*   https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar
+*   https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar
+
+Next, you need to drag and drop these three downloaded files into your lib/ folder in your directory (This should be a folder outside of your src folder).
+
+Then, in order to compile, you must create a new outside folder titled .vscode/ and create a settings.json file inside of it.
+
+Inside of settings.json, copy and paste this snippet of code inside:
+
+```json
+{
+  "java.project.sourcePaths": [
+    "src"
+  ],
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar"
+  ]
+}
+```
+This tells vscode to include all of your .jar files in the lib/ folder in your classpath 
+
+
+
+Classes to Store and Analyze Data
 -----------------
 
 ### Message
@@ -34,26 +84,215 @@ Represents a single message and contains:
     
 *   String receiver
     
-*   String content
+*   String content (the actual message sent)
     
 *   LocalDateTime timestamp
 
 ### DMAnalyzer
 
-This is the class that processes and stores message data. It contains the following methods:
+This class is responsible for analyzing the list of parsed messages. It includes logic for computing key features based on message data.
 
-*   loadMessages reads from a file and populates a List.
+It's key methods include: 
+
+```json
+String getDateOfLongestConversation(String username)
+```
+This method tterates through all messages and counts the number of messages per date where the specified user was either the sender or recipient. Returns the date (as a yyyy-MM-dd string) on which the most messages were exchanged with that user.
+
+```json
+List<String> getRecentMessages(String username)
+```
+
+This method returns the 20 most recent messages involving the specified user, sorted by timestamp in descending order. It uses a comparator to sort the messages and formats each one into a string.
+
+
+### DMData 
+
+The DmData class is a data model used to represent the contents of a single Instagram message JSON file. It is used during the deserialization process to map the file's structure to Java objects.
+
+This class is annotated with:
+
+```json
+@JsonIgnoreProperties(ignoreUnknown = true)
+```
+
+which tells Jackson to ignore any JSON fields that aren't explicitly defined in the class, such as reactions, media, or other metadata not needed for analysis. DmData acts as a wrapper for each conversation thread in the dataset. Each message JSON file typically includes both participant information and an array of messages. This class encapsulates those two fields, allowing them to be accessed and manipulated as needed.
+
+Key methods to implement include: 
+```json
+List<Participant> participants
+```
+A list of all participants in the current conversation thread.
+
+```json
+List<Message> messages
+```
+A list of all direct messages exchanged in the thread.
+
+A getter and setter method is also needed for both of these. This class should primarily be used by InstagramDMLoader.java to deserialize each individual JSON file into usable Java objects. Once loaded, the message lists from each DmData instance are combined to form a complete dataset, which is then passed to the DMAnalyzer.
+
+
+### InstagramDMLoader
+
+This class is responsible for reading and parsing Instagram DM .json files from a user-specified folder. It utilizes the Jackson ObjectMapper to deserialize each file into DmData objects, from which the messages are extracted and aggregated.
+
+What it should do:
+*   Traverse a folder of Instagram JSON DM Files
+*   Parse each file into java objects (DmData, Message, Participant)
+*   Filter messages by participant name
+
+```jason 
+public static List<Message> loadMessages(String folderPath)
+```
+
+This line of code loads all messages from every .json file in the provided folder. It's meant to return a combined ```json List<Message>``` containing messages from all files.
+Usage: Ideal when analyzing the full dataset regardless of participant.
+
+```json
+public static List<Message> loadMessagesFromParticipant(String folderPath, String participantName)
+```
+
+This line of code filters and loads messages only from conversations that include a specific participant. It returns a ```json List<Message>``` containing only the messages from relevant threads involving the specified user.
     
-*   getMessageCountsByUser returns a mapping of usernames to the number of messages they received.
-    
-*   getMessageCountsFromUser returns a mapping of usernames to the number of messages they sent.
-    
-*   getMostCommonOneWordMessages(int limit) returns a list of the most common one-word messages used across all conversations.
-    
-*   getDateOfLongestConversation(String username) finds the day with the most messages exchanged with a particular user.
-    
-*   getRecentMessages(String username, int count) returns the most recent count messages exchanged with the specified user.
-    
+```json
+ObjectMapper mapper = new ObjectMapper();
+```
+This line of code is used to deserialize .json into Java objects.
+
+Lastly, messages should be extracted through data.getMessages()
+
+This class acts as the data ingestion layer. It isolates file reading and parsing logic from the rest of the application, enabling classes like DMAnalyzer to focus on analysis, not input handling. It's designed to be reusable and safe, handling missing files and format errors pretty gracefully.
+
+### Participant
+
+This is a fairly simple data class that represents an individual participant in an Instagram direct message thread. This class is used primarily when deserializing the participants array from the Instagram JSON structure. Its responsibilities include: holding the name of one participant in a conversation, and providing getter and setter methods to access or modify that name.
+
+Fields: private String name;
+
+The Participant class works alongside the DmData class to represent a conversation's metadata. While simple, it is essential for identifying which users are involved in a particular message thread, especially when filtering or analyzing messages by participant.
+
+### Message Thread 
+
+The MessageThread class represents a single Instagram DM conversation, encapsulating both the participants involved and the messages exchanged within that thread. Its purpose serves as a lightweight container for bundling messages and participants together. It's useful for grouping a single chat thread when organizing or analyzing multiple message files.
+
+Its fields include: 
+```json
+public List<Participant> participants;
+```
+
+which is a list of users involved in this single specific chat. It should also include,
+
+```json
+public List<Message> messages;
+```
+
+which is a list of Message objects representing each text/message sent in this thread. At this point, it should be deserialized from the messages array in the original Instagram JSON structure. You might use MessageThread when grouping messages and participants from a single JSON file for easier display or export. It could also be used when passing thread-level data between components that expect both metadata and content.
+
+### ReadAllJsonFiles
+
+This class is a standalone program that allows users to input a username, search for Instagram DM JSON files matching that username, and display basic information about the messages contained in the first matching file. Wen properly implemented, this class should allow for manual verification or quick inspection of Instagram DM JSON exports. It should also filter message files by username, read the matching file, and print summary details such as message count and the first few
+
+How it Should Work:
+
+*   User Prompt: Asks the user to input a username via the terminal.
+
+*   Folder Lookup: Searches inside the Message JSON Files/ directory for any .json files that include the given username in the filename.
+
+*   File Parsing:
+
+        Uses Jackson's ObjectMapper to deserialize the JSON into a DmData object.
+
+        Extracts the list of messages.
+
+*   Output: Prints the number of messages and the contents of the first message (using its toString() method)..
+
+
+Dependencies: 
+
+```json
+Jackson Databind (com.fasterxml.jackson.databind.ObjectMapper)
+```
+
+This line is used for converting JSON files to Java objects (DmData, Message, etc.).
+
+There are also some assumptions you must look out for with this file. It should assume JSON files are stored in a soecific folder, in our case something like Message JSON Files. That folder should be located in the root directory.
+
+Filenames include the participant's name (e.g., caoilainn.json).
+
+The message file format conforms to the Instagram data export format supported by the DmData class.
+
+
+Things to Keep in Mind: 
+
+This class only loads the first matching file. It also assumes case-insensitive matching based on filename (not message content). Lastly, there is no validation of message format beyond successful deserialization.
+
+
+### Main 
+
+The Main class serves as the entry point to the Instagram DM Analyzer. It allows the user to input a participant's name, loads their messages from JSON files, and performs various key analyses:
+
+*   Displays the 20 most recent messages with the participant
+
+*   Finds and prints the date of the most active conversation (by message count)
+
+
+How it Should Work:
+
+*   Prompts the user for a participant's name.
+
+*   Loads all messages involving that participant from JSON files located in the "Message JSON Files" folder.
+
+*   Sorts the messages by timestamp (newest first).
+
+*   Prints the 20 most recent non-empty messages.
+
+*   Counts the number of messages sent per date.
+
+*   Identifies and prints the date with the highest message volume (i.e., longest conversation)
+
+Reminder:
+    Make sure JSON message files being inputted are located in a folder named Message JSON Files. (all files end with .json, so also consider implementing code so that searching caoilainn searches for caoilainn.json in the Message JSON Files folder)
+
+    Each file should follow the Instagram archive structure (compatible with Jackson's deserialization into DmData).
+
+
+
+### Interface 
+
+Make sure to also implement the InstagramDMAnalyzer interface, which defines a contract for analyzing Instagram Direct Messages. It outlines the core functionality expected of any class that implements it, enabling flexible and testable message analysis.
+
+Method void loadDataset(String filePath) 
+
+Loads Instagram message data from a specified JSON file path.
+
+```json
+Map<String, Integer> getTotalMessagesSentToEachPerson()	
+```
+Returns a map of usernames to the total number of messages sent to each.
+
+```json
+Map<String, Integer> getTotalMessagesReceivedFromEachPerson()
+```
+Returns a map of usernames to the number of messages received from each.
+
+```json
+List<String> getMostCommonSingleWordMessages(int topN)
+```
+Returns a list of the top N most common single-word messages.
+
+```json
+String getDateOfLongestConversation(String username)
+```
+Finds the date of the longest (most active) conversation with a specified user.
+
+```json
+List<String> getRecentMessages(String username)
+```
+Retrieves the 20 most recent messages exchanged with a specified user.
+
+
+
+
 
 Data Structures - TO BE EDITED
 ---------------

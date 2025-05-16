@@ -83,7 +83,7 @@ public class DMAnalyzer
         // For the messages in the list
         for (Message m : messages) 
         {
-            // If the message is from the requested username
+            // If the message is from or to the requested username
             if (m.isFromOrTo(username)) 
             {
                 // Add to list
@@ -105,7 +105,7 @@ public class DMAnalyzer
         // Creates a string of the list to return with most recent messages
         List<String> result = new ArrayList<>();
         // Creates a count to find the 10 most recent messages
-        int count = Math.min(10, relevantMessages.size());
+        int count = Math.min(20, relevantMessages.size());
         // For the number or messages wanted
         for (int i = 0; i < count; i++) 
         {

@@ -108,7 +108,7 @@ public class Message
         return formattedDate;
     }
 
-    public int compareTo(Message toCheck)
+    public int compareToDate(Message toCheck)
     {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         String date1 = sdf.format(new Date(this.getTimestamp_ms()));
@@ -139,9 +139,20 @@ public class Message
         return date1.compareTo(date2);
     }
 
-
-    public static void main(String args[]) 
+    public int compareToLength(Message toCheck)
     {
+        if (this.getContent().length() == toCheck.getContent().length())
+        {
+            return 0;
+        }
+        else if (this.getContent().length() > toCheck.getContent().length())
+        {
+            return 1;
+        }
+        else
+        {
+            return -1;
+        }
     }
 
 }

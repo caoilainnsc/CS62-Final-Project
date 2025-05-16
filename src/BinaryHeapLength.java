@@ -1,10 +1,10 @@
 import java.util.ArrayList;
-public class BinaryHeap
+public class BinaryHeapLength
 {
     private Message[] a;
     private int n;
 
-    public BinaryHeap()
+    public BinaryHeapLength()
     {
         a = new Message[10];
         n = 0;
@@ -12,7 +12,7 @@ public class BinaryHeap
 
     private void swim(int k) 
     {
-        while (k > 1 && a[k/2].compareTo(a[k])<0) 
+        while (k > 1 && a[k/2].compareToLength(a[k])<0) 
         {
             Message temp = a[k];
             a[k] = a[k/2];
@@ -46,12 +46,12 @@ public class BinaryHeap
         while (2*k <= n) 
         {
             int j = 2*k;
-            if (j < n && a[j].compareTo(a[j+1])<0)
+            if (j < n && a[j].compareToLength(a[j+1])<0)
             {
                 j++;
             }
             
-            if (a[k].compareTo(a[j])>=0)
+            if (a[k].compareToLength(a[j])>=0)
             {
                 break;
             }
@@ -86,17 +86,5 @@ public class BinaryHeap
             }
         }
         return recents;
-    }
-
-    public static void main(String[] args) 
-    {
-       InstagramDMLoader test = new InstagramDMLoader(("/Users/caoilainnchristensen/Documents/CS62 Final Project Data"));
-       BinaryHeap testHeap = new BinaryHeap();
-
-       for(Message message : test.loadMessagesFromParticipant("leobutdumber"))
-       {
-            testHeap.insert(message);
-       }
-
     }
 }

@@ -103,11 +103,4 @@ public class InstagramDMLoader
         // Return the list of messages form requested user
         return chat;
     }
- 
-    public static void main(String[] args) 
-    {
-       InstagramDMLoader test = new InstagramDMLoader(("/Users/caoilainnchristensen/Documents/CS62 Final Project Data"));
-
-       System.out.println(test.loadMessagesFromParticipant("leobutdumber"));
-    }
 }

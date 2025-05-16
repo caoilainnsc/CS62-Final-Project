@@ -7,6 +7,39 @@ import java.util.ArrayList;
 
 public class Main 
 {
+
+    public void printMostRecents(int num, ArrayList<Message> givenMessages)
+    {
+        // Return what recent messages are
+        System.out.println("Recent messages:");
+        BinaryHeapDate messageTree = new BinaryHeapDate();
+        // For all messages in chat
+        for (Message msg : givenMessages) 
+        {
+            messageTree.insert(msg);
+        }
+
+        for (Message recent : messageTree.getMostRecent(num))
+        {
+            System.out.println(recent.getContent());
+        }
+    }
+
+    public void printLongest(int num, ArrayList<Message> givenMessages)
+    {
+        System.out.println("Longest messages: ");
+        BinaryHeapLength messageTree = new BinaryHeapLength();
+        for (Message msg : givenMessages) 
+        {
+            messageTree.insert(msg);
+        }
+
+        for (Message recent : messageTree.getMostRecent(num))
+        {
+            System.out.println(recent.getContent());
+        }
+    }
+
     public static void main(String[] args) 
     {
         // Create scanner for user input
@@ -31,33 +64,7 @@ public class Main
             return;
             
         }
-
-        // Creates comparator for messages 
-        Collections.sort(messages, new Comparator<Message>() 
-        {
-            // Gets longest message
-            public int compare(Message m1, Message m2) 
-            {
-                // The for the longest message
-                return Long.compare(m2.getTimestamp_ms(), m1.getTimestamp_ms());
-            }
-        });
-
-        // Return what recent messages are
-        System.out.println("Recent messages from " + name + ":");
-        BinaryHeap messageTree = new BinaryHeap();
-        // For all messages in chat
-        for (Message msg : messages) 
-        {
-            messageTree.insert(msg);
-        }
-
-
-        for (Message recent : messageTree.getMostRecent(20))
-        {
-            System.out.println(recent.getContent());
-        }
-
+        
         // Count messages per date
         // Format data to year month day
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
